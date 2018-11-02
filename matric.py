@@ -34,7 +34,8 @@ for i in range(0,10):
 
     x2.append(i)
     y2.append(b[1][0])
-
+    print(b[0][0]+b[0][1])
+    print(b)
     # plt.plot([i], [b[0][0]], 'go-')
     # plt.plot([i], [b[1][0]], 'ks')
     # print(b)
