@@ -1,0 +1,18 @@
+import numpy as np
+# 矩阵乘法是周期性的，周期d=3
+a=np.array([[0,0,0.5,0.5,0,0],[0,0,0.5,0,0.5,0],[0,0,0,0,0,1],[0,0,0,0,0,1],[0,0,0,0,0,1],[0.5,0.5,0,0,0,0]])
+print(a)
+b=np.dot(a,a)
+print(b)
+c=np.dot(b,a)
+print(c)
+d=np.dot(c,a)
+print(d)
+e=np.dot(d,a)
+print(e)
+f=np.dot(e,a)
+print(f)
+g=np.dot(f,a)
+print(g)
+h=np.dot(g,a)
+print(h)
